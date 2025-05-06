@@ -86,7 +86,7 @@ conf = 0.40
 After training, the YOLOv8 model was deployed using **OpenCV** to detect and label facial expressions in real-time from video streams or webcam feeds.
 
 ### 🔄 Workflow:
-1. Load trained YOLOv8 `.pt` model.
+1. Load trained [`YOLOv8.pt`](https://github.com/AklimaRimi/Real-Time-Facial-Expression-Detection-using-YOLOv8-and-OpenCV/tree/main/model) model.
 2. Use `cv2.VideoCapture()` to open webcam or video file.
 3. Apply YOLOv8 detection to each frame.
 4. Draw bounding boxes and emotion labels.
