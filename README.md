@@ -14,7 +14,7 @@ This project uses a custom-built facial expression dataset and YOLOv8 to detect 
 The **Facial Expression Recognition - 9 Emotions Dataset** was carefully **compiled and annotated** using multiple publicly available datasets from **Roboflow Universe**. It was curated to support emotion recognition tasks in deep learning and human-computer interaction.
 
 ### 📊 Key Statistics
-- **Total Images**: 70,000+
+- **Total Images**: 70,000+ [Link](https://www.kaggle.com/datasets/aklimarimi/8-facial-expressions-for-yolo)
 - **Image Format**: JPG / PNG (source-dependent)
 - **Image Size**: Varies
 - **Annotations**: Single-label (One of 9 expression classes)
