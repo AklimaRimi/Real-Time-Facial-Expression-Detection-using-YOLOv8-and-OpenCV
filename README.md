@@ -66,3 +66,36 @@ batch = 32
 lr0 = 0.01
 conf = 0.40
 ```
+### 🧪 Problem-Solving & Optimization
+- Tuned learning rate (`lr0`) and confidence threshold (`conf`) to balance **recall** and **precision**.
+- Used **imgsz=224** to improve model speed and reduce memory usage.
+- Prevented overfitting by using early stopping and dataset balancing techniques.
+- Reviewed confusion matrices to fine-tune weak classes (e.g., Contempt vs Disgust).
+
+### 🏁 Results
+- Achieved **high precision and recall** across all 9 emotion categories.
+- Inference latency remained under **50ms per frame** on a mid-range GPU.
+
+---
+
+## 📹 Real-Time Evaluation using OpenCV
+
+After training, the YOLOv8 model was deployed using **OpenCV** to detect and label facial expressions in real-time from video streams or webcam feeds.
+
+### 🔄 Workflow:
+1. Load trained YOLOv8 `.pt` model.
+2. Use `cv2.VideoCapture()` to open webcam or video file.
+3. Apply YOLOv8 detection to each frame.
+4. Draw bounding boxes and emotion labels.
+5. Display FPS and real-time predictions.
+
+### ▶️ Example Output
+
+![Video Example](https://github.com/yourusername/your-repo/blob/main/output.gif)
+
+> The system can detect and classify multiple faces with real-time performance and minimal lag.
+
+---
+
+## 📁 Repository Structure
+
