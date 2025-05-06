@@ -1,6 +1,6 @@
 # Real-Time Facial Expression Detection using YOLOv8 and OpenCV
 
-![](https://img.shields.io/badge/Status-Completed-brightgreen)
+![](https://github.com/AklimaRimi/Real-Time-Facial-Expression-Detection-using-YOLOv8-and-OpenCV/blob/main/output.mp4)
 
 This project uses a custom-built facial expression dataset and YOLOv8 to detect and classify human emotions in real-time from video streams. With over 70,000 labeled images across 9 emotional classes, the model is trained and evaluated to perform with high accuracy and speed using OpenCV.
 
