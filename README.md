@@ -32,7 +32,7 @@ The **Facial Expression Recognition - 9 Emotions Dataset** was carefully **compi
 
 ---
 
-## 🧹 Dataset Creation & Annotation Process
+## 🧹 Dataset Creation & Annotation Process [Code](https://github.com/AklimaRimi/Real-Time-Facial-Expression-Detection-using-YOLOv8-and-OpenCV/tree/main/scripts)
 
 1. **Source Selection**
    - Merged data from top-quality facial emotion datasets hosted on Roboflow.
