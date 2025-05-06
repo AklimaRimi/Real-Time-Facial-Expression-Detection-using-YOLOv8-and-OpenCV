@@ -89,13 +89,11 @@ After training, the YOLOv8 model was deployed using **OpenCV** to detect and lab
 4. Draw bounding boxes and emotion labels.
 5. Display FPS and real-time predictions.
 
-### ▶️ Example Output
+## 📌 Summary
 
-![Video Example](https://github.com/yourusername/your-repo/blob/main/output.gif)
-
-> The system can detect and classify multiple faces with real-time performance and minimal lag.
+This project combines **computer vision**, **data wrangling**, and **real-time system integration** to build a facial emotion detection system from scratch. By leveraging a curated dataset and the powerful YOLOv8 model, it demonstrates strong performance in practical environments — with potential for future enhancement in psychological AI, education, surveillance, and HCI systems.
 
 ---
 
-## 📁 Repository Structure
+**🔗 Repository**: [GitHub](https://github.com/AklimaRimi/Real-time-Facial-Expression-Detection-YOLOv8)
 
